@@ -561,7 +561,7 @@ header ul.is-sticky li a.active {
 #address-container {
     width: 38%;
     background: #fff;
-    padding: .5rem;
+    padding: 1.5rem;
     box-sizing: border-box;
     height: 0%;
 }
