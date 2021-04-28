@@ -189,6 +189,19 @@ header ul.is-sticky li a.active {
 
 }
 
+#hero-2 {
+    background: url('./convertedimg/hero.jpg') center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+
+}
+
+
 
 #hero .fade {
     position: absolute;
