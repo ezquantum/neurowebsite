@@ -549,14 +549,14 @@ header ul.is-sticky li a.active {
     resize: none;
 }
 
-#address-container-2 {
+/*#address-container-2 {
     width: 38%;
     background: #fff;
     padding: 1.5rem;
     box-sizing: border-box;
     height: 0%;
     text-align: center;
-}
+}*/
 
 #address-container {
     width: 38%;
@@ -564,6 +564,8 @@ header ul.is-sticky li a.active {
     padding: 1.5rem;
     box-sizing: border-box;
     height: 0%;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 #address-container label {
