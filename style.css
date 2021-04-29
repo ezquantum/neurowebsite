@@ -821,6 +821,7 @@ footer small a:hover {
 
     .container {
         max-width: 540px;
+        z-index: ;
     }
 
     #hero .hero-text {
@@ -994,6 +995,17 @@ footer small a:hover {
 
 /*Begin Imported Flex Box*/
 
+    #google-maps {
+        padding-top: 50px;
+        padding-left: 30px;
+
+    }
+
+        #copyright {
+        padding-left:30px;
+
+
+    }
 
 $ratio-16-9: 56.25%;
 $cols: 3;
@@ -1082,6 +1094,7 @@ $cols: 3;
   min-width: 100%;
   min-height: 100%;
   opacity: 15%;
+  z-index: -1;
 }
 
 /* Add some content at the bottom of the video/page */
@@ -1092,6 +1105,7 @@ $cols: 3;
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
+
 }
 
 /* Style the button used to pause/play the video */
@@ -1110,4 +1124,6 @@ $cols: 3;
   background: #ddd;
   color: black;
 } */
+
+
 
