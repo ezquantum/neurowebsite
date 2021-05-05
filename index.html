@@ -33,8 +33,9 @@
                         <li><a href="#" class="active">Home</a></li>
                         <li><a href="#services">Services</a></li>
                         <!-- <li><a href="#">Forms</a></li> -->
-                        <li><a href="#About">About</a></li>
+                        <li><a href="#Map">Map</a></li>
                         <li><a href="#Contact">Contact/Fax</a></li>
+                        <li><a href="#About">About</a></li>
                         <li id="close-flyout"><span class="fas fa-times"></span></li>
                     </ul>
                 </nav>
@@ -82,7 +83,7 @@
             <div id="properties-slider" class="slick">
                 <div>
                     <!-- 727 × 718 -->
-                    <img src="./convertedimg/bike.jpg" alt="Property 1" />
+                    <img src="./convertedimg/wreck.jpg" alt="Property 1" />
                     <div class="property-details">
                         
                     </div>
@@ -96,7 +97,7 @@
                 </div>
 
                 <div>
-                    <img src="./convertedimg/hand.jpg" alt="Property 1" />
+                    <img src="./convertedimg/ambulance.jpg" alt="Property 1" />
                     <div class="property-details">
                         
                     </div>
@@ -110,10 +111,11 @@
                 </div>
 
                 <div>
-                    <img src="./convertedimg/run.jpg" />
+                    <img src="./convertedimg/carfire.jpg" />
                     <div class="property-details">
                         
                     </div>
+
                 </div>
             </div>
         
@@ -141,7 +143,9 @@
         <div class="flex container">
              <!-- The video -->
         <video autoplay muted loop playsinline id="myVideo" poster="convertedimg/jump.jpg">
-          <source src="./convertedimg/yoga.mp4" type="video/mp4">
+<!--           <source src="./convertedimg/yoga.mp4" type="video/mp4">
+ -->            <source src="https://player.vimeo.com/video/424983472" type="video/mp4">
+                <source src="https://static.pexels.com/lib/videos/free-videos.webm" type="video/webm">
         </video>
         </div> 
         </div>
@@ -287,7 +291,6 @@
 
                     <label><b>Fax:</b></label>
                     <a href="#"><br>713-271-2219</a><br><br>
-
                     
                     <label><b>Email Address:</b></label>
                     <br>
@@ -367,7 +370,7 @@
         
         <div id="google-maps" class="flex-container">
 
-            <h3>Bissonnet Location</h3>
+            <h3 id="Map">Bissonnet Location</h3>
 
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.515437115394!2d-95.55530318499399!3d29.675832482017896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c2a8f7e9f557%3A0x2929fec5ea962b75!2s9898%20Bissonnet%20St%2C%20Houston%2C%20TX%2077036!5e0!3m2!1sen!2sus!4v1619641463316!5m2!1sen!2sus" width="280" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         
@@ -393,7 +396,7 @@
             let navToggle = $('#nav-toggle');
 
            $('#properties-slider').slick({
-                slidesToShow: 4,
+                slidesToShow: 3,
                 slidesToScroll: 1,
                 prevArrow: '<a href="#" class="slick-arrow slick-prev">previous</a>',
                 nextArrow: '<a href="#" class="slick-arrow slick-next">next</a>',
