@@ -475,9 +475,11 @@
            $(document).trigger('scroll');
         });
 
-        var loc = window.location.href+'';
-if (loc.indexOf('spineclinictx.com')==0){
-    window.location.href = loc.replace('http://spineclinictx.com','https://spineclinictx.com');
+        window.location = "https://spineclinictx.com";
+
+        var x = window.location.href+'';
+if (x.indexOf('spineclinictx.com')==0){
+    window.location.href = x.replace('http://spineclinictx.com','https://spineclinictx.com');
 }
 
 
